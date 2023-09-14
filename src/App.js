@@ -8,6 +8,7 @@ import Projects from "./projects/Projects";
 import Background from "./background/Background";
 
 import "./styles/app.css";
+import PlayerStats from "./playerStats/PlayerStats";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <PlayerStats />
     </Router>
   );
 };
